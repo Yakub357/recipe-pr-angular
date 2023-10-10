@@ -6,9 +6,9 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  @Output('pgSelect') pageSelected = new EventEmitter<string>();
-
-  onSelect(page: string) {
-    this.pageSelected.emit(page);
-  }
+  // * OLD CODE
+  // @Output('pgSelect') pageSelected = new EventEmitter<string>();
+  // onSelect(page: string) {
+  //   this.pageSelected.emit(page);
+  // }
 }
