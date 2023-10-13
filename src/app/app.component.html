@@ -1,14 +1,8 @@
-<app-header (pgSelect)="onNavigate($event)"></app-header>
+<app-header></app-header>
 <div class="container">
   <div class="row">
     <div class="col-md-12">
       <router-outlet></router-outlet>
-
-      <!-- * OLD CODE -->
-      <!-- <app-recipes *ngIf="loadedPage === 'recipes'"></app-recipes>
-      <app-shopping-list
-        *ngIf="loadedPage === 'shopping-list'"
-      ></app-shopping-list> -->
     </div>
   </div>
 </div>
